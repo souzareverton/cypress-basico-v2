@@ -1,29 +1,22 @@
-# Testes automatizados com Cypress - Básico
+# curso-basico-cypress2
 
-👋 Seja bem-vindo(a)!
+Apresenta os testes dos exercícios criados durante o aprendizado do curso básico de Cypress
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisito
+Ë requisito ter o Node.js e o NPM instalados para executar o projeto
+    > Eu utilizei as versão `14.19.1` e `9.7.1` do Node e NPM, respectivamente. Eu sugiro utilizar a mesma versão ou superior
 
-## O que você vai aprender
+## Instalação
+Executar o comando `npm install` (ou `npm i` na versão compacta) para instalar as dependênciuas de dev.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+## Testes
+Você pode executar os casos de teste simulando desktop e mobile
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+### Desktop
+Executar `npm test` para executar em modo headless ou, `npm run cy:open` para executar em modo interativo. No viewport de desktop.
 
-## Vamos começar?
+### Mobile
+Executar `npm run cy:mobile` para executar em modo headless ou, `npm run cy:open:mobile` para executar em modo interativo. No viewport de mobile.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+## Suporte este projeto
+Caso queira deixar um suporte ao projeto clique na ⭐.
