@@ -242,4 +242,10 @@ describe('Central de Atendimento ao Cliente TAT', function() {
             expect(body).to.include('CAC TAT');
         });
     });
+
+    it('encontrar e exibir o gato', () => {
+        cy.get('#cat')
+            .invoke('show')
+            .should('be.visible');
+    });
 })
